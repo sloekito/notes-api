@@ -1,3 +1,8 @@
+### Design
+Used a popular library called mux
+User go-memdb
+A note can have a title and text
+
 ### Run Code
 ```
  go run cmd/notes-api/main.go
@@ -47,6 +52,9 @@ curl -X DELETE \
 - Implement other ways to query notes
 - Limit number of items returned in GET query
 - Another endpoint can also be implemented to get a single or multiple notes by ID or other queries
+
+#### Create notes endpoint
+- Only support single note creation
 
 #### Update Notes endpoint
 - At the moment does not support single field updates. For example we have to update both the title and text fields to get the desired result.
