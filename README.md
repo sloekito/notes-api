@@ -1,7 +1,7 @@
 ### Design
-Used a popular library called mux
-User go-memdb
-A note can have a title and text
+- Used a popular library called mux
+- Used go-memdb
+- A note can have a title and text
 
 ### Run Code
 ```
